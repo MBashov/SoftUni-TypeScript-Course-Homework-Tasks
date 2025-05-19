@@ -16,5 +16,5 @@ function dayOfWeek(dayNum: number): void {
 }
 
 // dayOfWeek(5);
-dayOfWeek(7);
+dayOfWeek(1);
 // dayOfWeek(8);
