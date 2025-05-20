@@ -1,12 +1,12 @@
-enum Days {
-    Monday = 1,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday,
-}
+// enum Days {
+//     Monday = 1,
+//     Tuesday,
+//     Wednesday,
+//     Thursday,
+//     Friday,
+//     Saturday,
+//     Sunday,
+// }
 
 function dayOfWeek(dayNum: number): void {
 
