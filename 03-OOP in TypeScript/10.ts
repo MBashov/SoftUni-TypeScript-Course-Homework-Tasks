@@ -20,10 +20,10 @@ class User {
     }
 }
 
-// const user = new User("Martin");
-// user.username = "johnDoe";
+const user = new User("Martin");
+user.username = "johnDoe";
 
-const user = new User("jo");
+// const user = new User("jo");
 
 // const user = new User("Martin");
 // user.username = "Do";
