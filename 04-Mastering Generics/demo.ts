@@ -69,3 +69,19 @@ type MakeOptionalProperties<T> = {
 
 type OptionalUser = MakeOptionalProperties<User> 
 type OptionalPoint = MakeOptionalProperties<Point>
+
+
+//! Advanced Mapped Types
+
+type Employe = {
+    name: string,
+    age: number,
+    salary: number,
+}
+
+type getNumericKeys<T> = {
+    [K in keyof T]: T[K] extends number ? K : never;
+}[keyof T];
+
+type EmployeNumericKeys = getNumericKeys<Employe>;
+type UserNumericKeys = getNumericKeys<User>;
