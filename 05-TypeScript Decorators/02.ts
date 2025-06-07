@@ -1,4 +1,4 @@
-function validateAge(target: any, accessorName: string, descriptor: PropertyDescriptor) {
+function validateAge(target: any, propertyName: string, descriptor: PropertyDescriptor) {
 
     const originalSetter = descriptor.set;
 
