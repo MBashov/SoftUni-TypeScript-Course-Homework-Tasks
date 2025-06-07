@@ -32,7 +32,7 @@ function AuthorizeUser(authService: MockAuthrizationService) {
     }
 }
 
-class User {
+class User1 {
     private _name: string;
     private _age: number;
     private _creditCardNumber: string;
@@ -60,7 +60,7 @@ class User {
 
 }
 
-const user1 = new User("John Doe", 30, 'ABCD-1234');
+const user1 = new User1("John Doe", 30, 'ABCD-1234');
 console.log(user1.name);
 console.log(user1.age);
 console.log(user1.creditCardNumber);
