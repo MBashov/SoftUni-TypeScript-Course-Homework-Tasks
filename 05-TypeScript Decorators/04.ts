@@ -1,3 +1,5 @@
+export { }
+
 class MockAuthrizationService {
 
     constructor(private userRole: 'Guest' | 'PersonalDataAdministrator' | 'Admin') { }
@@ -32,7 +34,7 @@ function AuthorizeUser(authService: MockAuthrizationService) {
     }
 }
 
-class User1 {
+class User {
     private _name: string;
     private _age: number;
     private _creditCardNumber: string;
@@ -60,7 +62,7 @@ class User1 {
 
 }
 
-const user1 = new User1("John Doe", 30, 'ABCD-1234');
+const user1 = new User("John Doe", 30, 'ABCD-1234');
 console.log(user1.name);
 console.log(user1.age);
 console.log(user1.creditCardNumber);
